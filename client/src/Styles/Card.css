@@ -1,0 +1,18 @@
+.Card {
+    background-color: rgba(0,150,150);
+    flex: 0 0 19.7%;
+    text-align: center;
+    margin: .25rem;
+    transition: transform 300ms ease 100ms;
+}
+
+img {
+    height: 10rem;
+    width: 10rem;
+    padding-top: .25rem
+}
+
+
+.Card:hover {
+    transform: scale(1.25);
+  }
