@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import Card from './Utils/Card.js';
 import Directory from './Utils/Directory.js';
 
 export default function Browse() {
@@ -10,7 +9,7 @@ export default function Browse() {
     const handleSearch = async(e) => {
       e.preventDefault();
       try{
-      await fetch(`http://localhost:5000/searchByArtist/${artist}`)
+      await fetch(`http://localhost:5000/searchArtist/${artist}`)
       .then((res) => res.json())
       .then((data) => {
       console.log(data.results)
