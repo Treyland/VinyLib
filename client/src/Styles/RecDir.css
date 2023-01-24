@@ -1,0 +1,7 @@
+.recDir {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 55px;
+    width: 85rem;
+}
